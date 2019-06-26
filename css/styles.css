@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+header{
+    width: 100%;
+    text-align: right;
+}
+
+.user-img{
+    border-radius: 50%;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.main-nav>a:link,
+.main-nav>a:visited{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.main-nav>a:hover,
+.main-nav>a:focus{
+    opacity: 0.85;
+    text-decoration: underline;
+}
+
+.main-nav{
+    padding: 0 30px;
+    margin-top: 15px;
+}
